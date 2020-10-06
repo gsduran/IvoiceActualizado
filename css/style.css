@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+#toast-container {
+  top: 17% !important;
+  right: 25% !important;  
+}
+
+input:focus {
+  border-bottom: 1px solid royalblue !important;
+  box-shadow: 0 1px 0 0 royalblue !important;
+}
+
+/* Dropdown list color */
+
+.dropdown-content li > a, .dropdown-content li > span {
+  color: #3366cc !important;
+}
+
+.datepicker-date-display {
+  background-color: #3366cc;
+ }
+ 
+.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+  color:#3366cc;
+}
+ 
+.datepicker-table td.is-today {
+  color: #3366cc;
+}
+ 
+.datepicker-table td.is-selected {
+  background-color: #3366cc;
+  color: #fff;
+}
